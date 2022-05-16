@@ -35,12 +35,13 @@ public class Triangle {
     }
 
 
-        public static double getArea() {
-            double area, s;
-            s = side1 + side2 + side3;
-            area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
-            return (area);
+    public double getArea() {
+        double area, s;
+        s = side1 + side2 + side3;
+        area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+        return (area);
 
-        }
-
+    }
 }
+
+
